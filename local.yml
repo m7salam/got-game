@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  server:
+    build:
+      context: .
+      dockerfile: compose/local/server/Dockerfile
+    image: got_local_tomcat
+    ports:
+      - "8080:8080"
+
+# if wanted to initiate a standalone frontend can rnu this service
+
+#  webclient:
+#    build:
+#      context: .
+#      dockerfile: ./compose/local/webclient/Dockerfile
+#    image: got_local_webclient
+#    depends_on:
+#      - server
+#    restart: always
+#    volumes:
+#      - ./got-webclient:/home/node/app
+#      - ./got-webclient/node_modules:/home/node/app/node_modules
+#    env_file:
+#      - .envs/.local/.main
+#    ports:
+#      - 4200:4200

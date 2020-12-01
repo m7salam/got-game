@@ -1,0 +1,6 @@
+/home/mo/dev/takeaway/code/latest/game-of-three/game-of-three-rules/src/main/java/com/games/gameofthree/rules/player/PlayerNamePolicy.java
+/home/mo/dev/takeaway/code/latest/game-of-three/game-of-three-rules/src/main/java/com/games/gameofthree/rules/game/GamePolicy.java
+/home/mo/dev/takeaway/code/latest/game-of-three/game-of-three-rules/src/main/java/com/games/gameofthree/player/exceptions/PlayerCannotBeRegistredReason.java
+/home/mo/dev/takeaway/code/latest/game-of-three/game-of-three-rules/src/main/java/com/games/gameofthree/rules/player/PlayerPolicy.java
+/home/mo/dev/takeaway/code/latest/game-of-three/game-of-three-rules/src/main/java/com/games/gameofthree/rules/player/PlayerNumberPolicy.java
+/home/mo/dev/takeaway/code/latest/game-of-three/game-of-three-rules/src/main/java/com/games/gameofthree/player/exceptions/PlayerCannotBeRegistredException.java
